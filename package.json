@@ -1,0 +1,29 @@
+{
+  "name": "mergem8",
+  "version": "1.0.0",
+  "description": "Tinder for Devs",
+  "keywords": [
+    "nodejs",
+    "java",
+    "script"
+  ],
+  "homepage": "https://github.com/7Rudra7/MergeM8#readme",
+  "bugs": {
+    "url": "https://github.com/7Rudra7/MergeM8/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7Rudra7/MergeM8.git"
+  },
+  "license": "ISC",
+  "author": "Rudra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
